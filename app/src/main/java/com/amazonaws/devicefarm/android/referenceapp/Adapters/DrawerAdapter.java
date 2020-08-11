@@ -16,13 +16,14 @@
 package com.amazonaws.devicefarm.android.referenceapp.Adapters;
 
 import android.content.Context;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.amazonaws.devicefarm.android.referenceapp.Models.DrawerCategoryModel;
 import com.amazonaws.devicefarm.android.referenceapp.R;

@@ -16,7 +16,7 @@
 package com.amazonaws.devicefarm.android.referenceapp.IdlingResources;
 
 import android.support.test.espresso.IdlingResource;
-import android.support.v4.view.ViewPager;
+import androidx.core.view.ViewPager;
 
 /**
  * Used to prevent Espresso from becoming idle when the viewpager is in a animated state

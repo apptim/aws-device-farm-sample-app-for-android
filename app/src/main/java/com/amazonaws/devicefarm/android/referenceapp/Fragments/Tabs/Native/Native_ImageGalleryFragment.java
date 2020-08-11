@@ -16,11 +16,12 @@
 package com.amazonaws.devicefarm.android.referenceapp.Fragments.Tabs.Native;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+
+import androidx.fragment.app.Fragment;
 
 import com.amazonaws.devicefarm.android.referenceapp.Adapters.ImageGalleryAdapter;
 import com.amazonaws.devicefarm.android.referenceapp.R;

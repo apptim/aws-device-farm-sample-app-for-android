@@ -17,7 +17,7 @@ package com.amazonaws.devicefarm.android.referenceapp;
 
 import android.support.test.InstrumentationRegistry;
 import android.support.test.espresso.Espresso;
-import android.support.v4.view.ViewPager;
+import androidx.core.view.ViewPager;
 
 import com.amazonaws.devicefarm.android.referenceapp.IdlingResources.ViewPagerIdlingResource;
 

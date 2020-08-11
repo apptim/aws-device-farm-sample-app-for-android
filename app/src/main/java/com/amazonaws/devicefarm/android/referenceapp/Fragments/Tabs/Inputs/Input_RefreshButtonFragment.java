@@ -16,11 +16,12 @@
 package com.amazonaws.devicefarm.android.referenceapp.Fragments.Tabs.Inputs;
 
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
@@ -36,7 +37,7 @@ import butterknife.InjectView;
 /**
  * A fragment representing a refresh input
  */
-public class Input_RefreshButtonFragment extends android.support.v4.app.Fragment implements
+public class Input_RefreshButtonFragment extends androidx.fragment.app.Fragment implements
         SwipeRefreshLayout.OnRefreshListener{
     @InjectView(R.id.input_refresh)
     SwipeRefreshLayout swipeRefreshLayout;
